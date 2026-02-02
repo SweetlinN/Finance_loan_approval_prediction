@@ -43,4 +43,4 @@ if st.button("Predict Loan Approval"):
 
     st.write("### Prediction Probability")
     st.write(f"Approved: **{prediction_proba[0][1]:.2f}**")
-    st.write(f"Not Approved: **{prediction_proba[0][0]:.2f}*
+    st.write(f"Not Approved: **{prediction_proba[0][0]:.2f}**")
